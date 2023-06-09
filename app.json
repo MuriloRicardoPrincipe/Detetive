@@ -15,14 +15,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      },
+      "bundleIdentifier": "y"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.muriloricardoprincipe.todo"
+      "package": "com.muriloricardoprincipe.todo",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -31,6 +36,9 @@
       "eas": {
         "projectId": "30595581-6954-4bf5-bafe-b889f29f2574"
       }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/30595581-6954-4bf5-bafe-b889f29f2574"
     }
   }
 }
